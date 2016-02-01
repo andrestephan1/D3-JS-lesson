@@ -1,30 +1,34 @@
 .title{
-	color: red;
+	color: #B0E0E6;
 	font-size: 50px;
 	text-align: left;
 	font-family: Calibri;
-	text-decoration: underline;
 }
 
 .description{
 	color: #696969;
-	font-size: 24pt;
-	text-align: justify;
-	border-left: 4px;
-	border-left-color: red;
-	border-left-style: solid;
-	padding: 50px;
+	font-size: 15px;
+	text-align: left;
+	font-family: Calibri;
+	padding-bottom: 30px;
 	/**width: 400px;**/
 }
 
 .image{
 	align: left;
-	width: 100%;
+	width: 1350px;
+}
+
+.category{
+	font-size: 20px;
+	font-family: Calibri;
+	fill: #00008B;
+	text-anchor: "middle"
 }
 
 .chart{
-	width: 1000px;
-	height: 800px;
+	width: 1400px;
+	height: 600px;
 	position: absolute;
 }
 
@@ -32,6 +36,14 @@
 	stroke: green;
 	fill: white;
 	stroke-width: 5px;
+}
+
+.indicator{
+	stroke: #00008B;
+	fill: #87CEFA;
+	stroke-width: 5px;
+}
+
 }
 
 .house{
