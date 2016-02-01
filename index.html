@@ -7,23 +7,31 @@
 		Test HTML page
 		</title>
 	</head>
-		<body>
-		<h1 class="title">Challenge 2</h1>
-		<div class = "description">
-			The quick brown fox jumps over the lazy dog.
-		</div>
+	<body>
+		<h1 class="title">Life cycle water profile of a typical Australian house over 50 years</h1>
+		<!--<div class = "description">
+			The figure shows the different life cycle water demands proportionaly to the house.
+		</div>-->
 		<div>
 			<svg class="chart">
-				<rect class="house" x="150" y="150" width="200" height="200"></rect>
-			</svg>
-			<svg class="chart">
-				<polygon class="roof" points="150,150 350,150 250,30"></polygon>
+				<rect class="house" x="50" y="50" width="50" height="50"></rect>
+				<polygon class="roof" points="50,50 100,50 75,10"></polygon>
+				<text id="house_text" class="description" text-anchor="middle" x="75" y="120">House volume: 720 kL</text>
+				<circle id ="EW" class="indicator" cx="303" cy="133" r="123"></circle>
+				<text id="EW_text" class="category" text-anchor="middle" x="303" y="133">Embodied Water</text>
+				<circle id ="OPW" class="indicator" cx="570" cy="124" r="114"></circle>
+				<text id="OPW_text" class="category" text-anchor="middle" x="570" y="124">Operational Water</text>
+				<circle id ="TW" class="indicator" cx="821" cy="117" r="107"></circle>
+				<text id="TW_text" class="category" text-anchor="middle" x="821" y="117">Transport Water</text>
+				<circle id ="LCW" class="indicator" cx="1137" cy="209" r="199"></circle>
+				<text id="LCW_text" class="category" text-anchor="middle" x="1137" y="209">Life Cycle Water</text>
 			</svg>
 		</div>
 		<div>
-			<img class="image" src="iceberg.png">
+			<img id="iceberg_img" class="image" src="Iceberg.png">
 		</div>
-		</body>
+		<script src="interaction.js"></script>
+	</body>
 
 </html>
 <circle class="circ1" cx = "30" cy= "30" r="15"></circle>
