@@ -1,0 +1,49 @@
+.title{
+	color: red;
+	font-size: 50px;
+	text-align: left;
+	font-family: Calibri;
+	text-decoration: underline;
+}
+
+.description{
+	color: #696969;
+	font-size: 24pt;
+	text-align: justify;
+	border-left: 4px;
+	border-left-color: red;
+	border-left-style: solid;
+	padding: 50px;
+	/**width: 400px;**/
+}
+
+.image{
+	align: left;
+	width: 100%;
+}
+
+.chart{
+	width: 1000px;
+	height: 800px;
+	position: absolute;
+}
+
+.circ1{
+	stroke: green;
+	fill: white;
+	stroke-width: 5px;
+}
+
+.house{
+	stroke: #B8860B;
+	fill: #DAA520;
+	stroke-width: 5px;
+}
+
+.roof{
+	stroke: #800000;
+	fill: #8B0000;
+	stroke-width: 5px;
+}
+/**use .X for a class
+/**make sure to inspect source in chrome for good developping
